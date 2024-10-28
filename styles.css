@@ -1,0 +1,45 @@
+.btn {
+    border: 1px solid #6c757d; 
+    background-color: white; 
+    color: black; 
+    padding: 15px;
+    margin-bottom: -1.5vh; 
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); 
+}
+
+.navbar-toggler-icon {
+    background-image: none; 
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: "";
+    display: block;
+    width: 30px; 
+    height: 2px; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    margin: 6px 0; 
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    position: relative;
+    width: 30px; 
+    height: 30px; 
+}
+
+
+#optionsRow {
+    position: fixed; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1050;
+    width: 90%; 
+}
+
+#optionsRow .btn {
+    width: 100%;
+}
